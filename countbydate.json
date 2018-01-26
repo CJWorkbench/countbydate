@@ -1,0 +1,28 @@
+{
+  "name": "Group by date",
+  "id_name": "countbydate",
+  "category" : "Analyse",
+  "icon" : "group",
+  "description": "Group and count rows by dates.",
+  "parameters": [
+    {
+      "name": "Date column",
+      "id_name" : "column",
+      "type": "column"
+    },
+    {
+      "name": "Group by",
+      "id_name" : "groupby",
+      "type" : "menu",
+      "menu_items" : "Second|Minute|Hour|Day|Month|Quarter|Year",
+      "default": "3"
+    },
+    {
+      "name": "Sort by",
+      "id_name" : "sortby",
+      "type" : "menu",
+      "menu_items" : "Value|Frequency",
+      "default": "0"
+    }
+  ]
+}
