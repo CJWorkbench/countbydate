@@ -21,7 +21,7 @@
       "name": "Sort by",
       "id_name" : "sortby",
       "type" : "menu",
-      "menu_items" : "Value|Frequency",
+      "menu_items" : "Date|Count",
       "default": "0"
     }
   ]
