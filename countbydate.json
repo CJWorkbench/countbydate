@@ -1,14 +1,14 @@
 {
   "name": "Count by date",
   "id_name": "countbydate",
-  "category" : "Analyze",
-  "icon" : "group",
+  "category": "Analyze",
+  "icon": "group",
   "description": "Group and count rows by dates.",
   "help_url":"modules/analyse/count-by-date",
   "parameters": [
     {
       "name": "Date column",
-      "id_name" : "column",
+      "id_name": "column",
       "type": "column"
     },
     {
@@ -20,9 +20,9 @@
     },
     {
       "name": "Sort by",
-      "id_name" : "sortby",
-      "type" : "menu",
-      "menu_items" : "Date|Count",
+      "id_name": "sortby",
+      "type": "menu",
+      "menu_items": "Date|Count",
       "default": "0"
     }
   ]
