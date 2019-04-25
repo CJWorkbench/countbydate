@@ -4,16 +4,16 @@ def render(wf_module, table):
     groupby = wf_module.get('groupby')
 
     group_options = [
-        "%Y-%m-%d %H:%M:%S",  # Seconds
-        "%Y-%m-%d %H:%M",  # Minutes
-        "%Y-%m-%d %H:00",  # Hours
+        "%Y-%m-%dT%H:%M:%SZ",  # Seconds
+        "%Y-%m-%dT%H:%MZ",  # Minutes
+        "%Y-%m-%dT%H:00Z",  # Hours
         "%Y-%m-%d",  # Days
         "%Y-%m",  # Months
         lambda d: "%d Q%d" % (d.year, d.quarter),  # Quarters
         "%Y",  # Years
     ]
 
-    if col == '':
+    if not col:
         wf_module.set_error('Please select a column containing dates')
         return table
 
