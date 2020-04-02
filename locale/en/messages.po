@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-02 12:45+0000\n"
+"POT-Creation-Date: 2020-04-02 12:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -84,4 +84,10 @@ msgstr "Maximum"
 
 msgid "_spec.parameters.include_missing_dates.name"
 msgstr "Include missing dates"
+
+#: countbydate.py:153
+msgid "error.tooManyRows"
+msgstr ""
+"Including missing dates would create {n_rows} rows, but the maximum "
+"allowed is {max_rows_per_table}"
 

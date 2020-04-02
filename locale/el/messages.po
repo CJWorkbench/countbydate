@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-02 12:46+0000\n"
+"POT-Creation-Date: 2020-04-02 12:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: el\n"
@@ -83,4 +83,8 @@ msgstr "Μέγιστο"
 
 msgid "_spec.parameters.include_missing_dates.name"
 msgstr "Να συμπεριληφθούν ημερομηνίες που λείπουν"
+
+#: countbydate.py:153
+msgid "error.tooManyRows"
+msgstr "Η συμπερίληψη των ημερομηνιών που λείπουν θα δημιουργούσε {n_rows} σειρές, αλλά ο μέγιστος επιτρεπόμενος αριθμός είναι {max_rows} σειρές"
 

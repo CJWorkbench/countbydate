@@ -82,3 +82,8 @@ msgstr ""
 msgid "_spec.parameters.include_missing_dates.name"
 msgstr ""
 
+#. default-message: Including missing dates would create {n_rows} rows, but the maximum allowed is {max_rows_per_table}
+#: countbydate.py:153
+msgid "error.tooManyRows"
+msgstr ""
+
