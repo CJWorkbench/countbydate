@@ -6,6 +6,10 @@ msgstr ""
 msgid "_spec.description"
 msgstr ""
 
+#. default-message: This step is obsolete. Use “Convert to date” and “Group” instead.
+msgid "_spec.deprecated.message"
+msgstr ""
+
 #. default-message: Select timestamp column
 msgid "_spec.parameters.column.placeholder"
 msgstr ""
